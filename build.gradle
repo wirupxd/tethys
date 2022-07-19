@@ -19,15 +19,6 @@ buildscript {
     }
 }
 
-def getGitHash = { ->
-    def stdout = new ByteArrayOutputStream()
-    exec {
-        commandLine 'git', 'rev-parse', 'HEAD'
-        standardOutput = stdout
-    }
-    return stdout.toString().trim()
-}
-
 apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'com.github.johnrengelman.shadow'
@@ -35,10 +26,6 @@ apply plugin: 'de.fuerstenau.buildconfig'
 
 version project.modVersion
 group project.modGroup //http://maven.apache.org/guides/mini/guide-naming-conventions.html
-
-buildConfig {
-    buildConfigField "String", "GitHash", "${getGitHash()}"
-}
 
 sourceSets.main.java.srcDirs += "build/gen/buildconfig/src/main"
 
@@ -67,7 +54,7 @@ repositories {
     }
     maven {
         name = 'swt-repo'
-        url = "http://maven-eclipse.github.io/maven"
+        url = "https://maven-eclipse.github.io/maven"
     }
     maven {
         name = "jitpack.io"
@@ -144,7 +131,6 @@ jar {
                 'FMLCorePlugin': 'me.alpha432.oyvey.mixin.OyVeyMixinLoader',
                 'ForceLoadAsMod': 'true',
                 'FMLAT': 'oyvey_at.cfg',
-                'Githash': 'getGitHash()'
         )
     }
 }
