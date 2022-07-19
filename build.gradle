@@ -77,13 +77,6 @@ dependencies {
 
 }
 
-
-
-task getDeps(type: Copy) {
-    from sourceSets.main.runtimeClasspath
-    into 'runtime/'
-}
-
 processResources {
     inputs.property 'version', project.version
     inputs.property 'mcversion', project.minecraft.version
