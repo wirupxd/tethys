@@ -2,7 +2,6 @@ package me.alpha432.oyvey;
 
 import me.alpha432.oyvey.api.IconUtil;
 import me.alpha432.oyvey.manager.*;
-import me.alpha432.oyvey.network.NetworkHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.Util;
 import net.minecraftforge.fml.common.Mod;
@@ -23,7 +22,6 @@ public class OyVey {
     public static final String MODVER = "2.3.0";
     public static final String MODVERGIT = OyVey.MODVER;
     public static final Logger LOGGER = LogManager.getLogger("Tethys");
-    private static NetworkHandler networkHandler;
     public static CommandManager commandManager;
     public static FriendManager friendManager;
     public static ModuleManager moduleManager;
@@ -46,9 +44,6 @@ public class OyVey {
     public static OyVey INSTANCE;
     public static String username = "User";
     private static boolean unloaded;
-    public static NetworkHandler getNetworkHandler() {
-        return OyVey.networkHandler;
-    }
 
 
     static {
