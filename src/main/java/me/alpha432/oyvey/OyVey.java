@@ -1,6 +1,5 @@
 package me.alpha432.oyvey;
 
-import me.alpha432.BuildConfig;
 import me.alpha432.oyvey.api.IconUtil;
 import me.alpha432.oyvey.manager.*;
 import me.alpha432.oyvey.network.NetworkHandler;
@@ -19,13 +18,10 @@ import java.nio.ByteBuffer;
 
 @Mod(modid = "tethys", name = "Tethys", version = OyVey.MODVER)
 public class OyVey {
-    private static int stringLimit = 7;
-    private static String hash = BuildConfig.GitHash;
-    private static String githash = hash.substring(0, stringLimit);
     public static final String MODID = "tethys";
     public static final String MODNAME = "Tethys";
     public static final String MODVER = "2.3.0";
-    public static final String MODVERGIT = OyVey.MODVER + "+" + githash;
+    public static final String MODVERGIT = OyVey.MODVER;
     public static final Logger LOGGER = LogManager.getLogger("Tethys");
     private static NetworkHandler networkHandler;
     public static CommandManager commandManager;
@@ -190,10 +186,4 @@ public class OyVey {
             }
         }
     }
-
-
-
-
-
 }
-
