@@ -11,7 +11,7 @@ gradlew clean
 gradlew build
 ```
 ![image](https://user-images.githubusercontent.com/75604883/179795707-895678b5-b6de-4aad-b466-1f777b6f8270.png)
-![_3000IQPlay=Spatny](https://user-images.githubusercontent.com/75604883/179823884-bf02eb80-f5c4-4ff5-908d-c25566603ad2.png)
+![_3000IQPlay=Spatny](https://user-images.githubusercontent.com/75604883/179825229-9522aca0-d545-4048-a36f-16870e6692a0.png)
 ```
  ██████╗ ██╗   ██╗ ██████╗ ██╗   ██╗██╗  ██╗ █████╗  ██████╗██╗  ██╗
 ██╔════╝ ██║   ██║██╔════╝ ██║   ██║██║  ██║██╔══██╗██╔════╝██║ ██╔╝
