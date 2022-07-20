@@ -5,7 +5,7 @@ Btw popbobikovi otw Lunarovi je to u pici takze se nesnaz o DMCA Adamku 🙃
 ----------------------------------------------------------------------------------------
 **Credits:**
 ```
-Master7720 - For giving me the SRC for check if its real so i leaked it after sometime
+Master7720 - For giving me the SRC for check if its real so i leaked it after sometime (Wont say how he got it)
 _3000IQPlay - For leaking this + removing the rat that doesnt work anymore and doing some other things with it
 Popbobik/2u9 on github - For making GuguHack (GuguPolice owner and this client)
 VirtualBox - For acting like a nerd and contributing in GuguHack 🤓
