@@ -12,7 +12,8 @@ VirtualBox - For acting like a nerd and contributing in GuguHack 🤓
 Xellu - For making the rat and some other shit LMAO
 ```
 
-**GuguRat**:
+GuguRat:
+---------------------------------------
 ![image](https://user-images.githubusercontent.com/75604883/179952183-4e8c055c-1e7d-4a44-be2e-2496303d47df.png)
 **How to build:**
 ```
